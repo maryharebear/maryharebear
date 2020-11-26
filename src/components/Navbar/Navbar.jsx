@@ -2,15 +2,19 @@ import React from "react";
 import "./Navbar.css";
 import {Link} from "react-router-dom";
 
+import Logo from "../../assests/logo.jpg";
+import Signature from "../../assests/signature.jpg";
+
 function Navbar() {
   return (
     <nav className="Navbar">
       <ul class="nav">
 
         <li class="logo">
-            <Link to="/" >Portfolio</Link></li>
+          <img className="logo" src={Logo}></img>
+            <Link to="/" ></Link></li>
 
-        <div class="name">Mary Delos Reyes</div>
+        <img className="signature" src={Signature}></img>
         {/* <li tabindex="0">
           <i data-feather="home">About Me</i>
         </li>
