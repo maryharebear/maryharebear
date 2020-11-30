@@ -41,11 +41,17 @@ function Contact() {
       <a href="https://www.linkedin.com/in/maryfrancine/"><i className="fab fa-linkedin"></i></a>
       <a href="https://github.com/maryharebear"><i className="fab fa-github"></i></a>
       <a href="https://www.behance.net/createdmary"><i className="fab fa-behance"></i></a>
+      <a href="https://drive.google.com/file/d/1LZnrE_CY1I5WKGzWemD_csFLziJxYNaH/view?usp=sharing"><i class="far fa-file-user"></i></a>
     </div>
   </div>
 </div>
 
-      
+{/* Credits to:
+CodePen 
+Neumorphism Contact Form Design
+Bipul Lamsal 
+https://codepen.io/Bipul_np/pen/PoNyZRG */}
+
     </main>
     </>
   );

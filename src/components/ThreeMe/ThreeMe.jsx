@@ -16,17 +16,17 @@ function ThreeMe() {
       <section className="slider">
         <Link to="/aboutme" className="images">
             <div className="image">
-              <img src={AboutMe} />
+              <img src={AboutMe} alt="About Me" />
             </div>
         </Link>
         <Link to="/aboutme" className="images">
             <div className="image">
-              <img src={Designs} />
+              <img src={Designs} alt="Designs" />
             </div>
         </Link>
         <Link to="/aboutme" className="images">
             <div className="image">
-              <img src={Work} />
+              <img src={Work} alt="Work"/>
             </div>
         </Link>
       </section>
