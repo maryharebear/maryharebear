@@ -8,15 +8,17 @@ body {
   background-color: #f0f0f3;
 }
 
-.logo{
+.logo {
   width: 60px;
   border-radius: 50%;
 }
-.signature{
+
+.signature {
   display: block;
-  width: 15%;
-  margin: 0 28em;
+  width: 20%;
+  margin: 0 26.5em;
 }
+
 .nav {
   width: 100vw;
   height: 100px;
@@ -64,22 +66,22 @@ body {
 }
 .nav div.name {
   margin-right: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2rem;
   color: rgb(15, 15, 15);
   font-weight: 900;
 }
 
 a {
-    text-decoration: none;
-  color:  dimgray;;
+  text-decoration: none;
+  color: dimgray;
 } /* Globally */
 
 /* Each state */
 
 a:visited {
   text-decoration: none;
-  color:  dimgray;;
+  color: dimgray;
 }
 a:focus,
 a:hover,
@@ -87,6 +89,13 @@ a:active {
   text-decoration: none;
   color: rgb(22, 21, 21);
 }
-i{
-    font-style: Georgia, serif;
+i {
+  font-style: Georgia, serif;
+}
+
+@media only screen and (max-width: 800px) {
+.signature{
+  display: none;
+}
+
 }

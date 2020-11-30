@@ -1,61 +1,73 @@
-.ThreeBoxes{
-    
-
-
+.ThreeBoxes {
   background: #f0f0f3;
-  
 }
-.images{
-margin: 0 1rem 2.1rem 1rem;
-width: 55%;
-padding: 1rem 1rem 1rem 1rem;
-border-radius: 3rem;
-box-shadow: 0.5rem 0.5rem 0.5rem #BCC6D2, -0.5rem -0.5rem 0.5rem  #F6FAFF;
-transition: all 250ms ease-in-out;
+.images {
+  margin: 0 1rem 2.5rem 1rem;
+  width: 55%;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 3rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #bcc6d2, -0.5rem -0.5rem 0.5rem #f6faff;
+  transition: all 250ms ease-in-out;
 
-
-    outline: none;
-    box-shadow: 1rem 1rem 1rem #BCC6D2, -1rem -1rem 1rem  #F6FAFF;
+  outline: none;
+  box-shadow: 1rem 1rem 1rem #bcc6d2, -1rem -1rem 1rem #f6faff;
 }
-.image{
-    margin: 0 1rem 0 0rem;
-    width: 100%;
-    padding: 1rem 1rem 1rem 1rem;
+.image {
+  margin: 0 1rem 0 0rem;
+  width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 img {
-    width: 100%;
-    vertical-align: bottom;
-    border-radius: 2rem;
-  }
-.slider{
-    overflow: hidden;
+  width: 100%;
+  vertical-align: bottom;
+  border-radius: 2rem;
+}
+.slider {
+  overflow: hidden;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   width: 100%;
-  padding: 0 0 2rem 0;
 }
 
-
 .wrapper {
-    margin: 5vh auto 5vh auto;
-    max-width: 30rem;
-    max-height: 90vh;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -webkit-box-align: center;
-            align-items: center;
-    overflow: hidden;
+  margin: 5vh auto 5vh auto;
+  /* max-width: 30rem; */
+  max-height: 90vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+  .slider {
+    flex-direction: row;
+    justify-content: space-between;
   }
+
+  .wrapper {
+    margin-top: 15vh;
+    /* max-width: 60rem; */
+    
+  
+  }
+
+  .images {
+    flex: 1 1 auto;
+    margin: 50px;
+  }
+}
