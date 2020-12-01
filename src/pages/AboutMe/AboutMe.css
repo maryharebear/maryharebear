@@ -1,9 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg);
 .Mary > h1 {
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Ogg Roman";
   line-height: 32px;
-  margin: 100px 0 32px 60px;
+  margin: 70px 0 32px 50px;
   font-weight: lighter;
   display: block;
   width: 80%;
@@ -15,7 +15,11 @@
   flex-direction: column;
   /* justify-content: flex-end; */
 }
-
+.Selfie {
+  width: 80%;
+  padding: 5% 0% 0% 10%;
+  
+}
 /* .Art{
     width: 80%;
     padding: 5% 0% 0% 0%;

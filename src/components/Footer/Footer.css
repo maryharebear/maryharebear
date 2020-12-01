@@ -1,0 +1,34 @@
+/* footer container */
+
+.Footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f3;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid #f2f2f2;
+display: block;
+    box-shadow: 0 0 10px #e2e2e2;
+  }
+
+  .navigation a {
+   padding: 0 0 0 15px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #161515;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .navigation a:hover {
+    margin-left: 10px;
+  }
+  
+  
+  

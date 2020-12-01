@@ -11,7 +11,6 @@ function Home() {
         <Navbar />
         <Introduction />
         <ThreeMe />
-
     </div>
   );
 }
