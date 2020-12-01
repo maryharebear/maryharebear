@@ -1,20 +1,91 @@
 @import url(//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg);
-.Introduction > h1{
-    font-size: 30px;
-    font-family: "Ogg Roman";
-    line-height: 62px;
-    margin: 100px 0 32px 60px;
-    font-weight: lighter;
-    display: block;
-    width: 80%;
-    color: #222222;
+.Introduction > h1 {
+  font-size: 30px;
+  font-family: "Ogg Roman";
+  line-height: 62px;
+  margin: 100px 0 32px 60px;
+  font-weight: lighter;
+  display: block;
+  width: 80%;
+  color: #222222;
 }
 
-.Introduction{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: flex-end; */
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
 }
+
+.scroll-down {
+  position: absolute;
+
+  margin: 10px 0  0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll {
+  width: 2rem;
+  height: 4rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll span {
+  width: 0.8rem;
+  height: 0.8rem;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  animation: cursor-slide 1.15s linear infinite;
+}
+
+.arrow-down {
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 2px solid transparent;
+  border-right-color: black;
+  border-bottom-color: black;
+  transform: rotate(45deg);
+  margin-top: 0.3rem;
+  animation: arrow-pulse 1.15s linear infinite;
+}
+
+/* Keyframes */
+
+@keyframes cursor-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes arrow-pulse {
+  0% { opacity: 0;}
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /* .Art{
     width: 80%;
@@ -22,24 +93,24 @@
 } */
 
 @media only screen and (min-width: 1000px) {
-    .Introduction{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    
-    .Art{
-        width: 80%;
-        padding: 5% 0% 0% 0%;
-    }
-    .Introduction > h1{
-        font-size: 50px;
-        font-family: "Ogg Roman";
-        line-height: 62px;
-        margin: 100px 0 32px 80px;
-        font-weight: lighter;
-        display: block;
-        width: 50%;
-        color: #222222;
-    }
+  .Introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .Art {
+    width: 80%;
+    padding: 5% 0% 0% 0%;
+  }
+  .Introduction > h1 {
+    font-size: 45px;
+    font-family: "Ogg Roman";
+    line-height: 62px;
+    margin: 100px 0 32px 80px;
+    font-weight: lighter;
+    display: block;
+    width: 50%;
+    color: #222222;
+  }
 }

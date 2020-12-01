@@ -1,5 +1,6 @@
 .ThreeBoxes {
   background: #f0f0f3;
+ 
 }
 .images {
   margin: 0 1rem 2.5rem 1rem;
@@ -38,7 +39,7 @@ img {
 }
 
 .wrapper {
-  margin: 5vh auto 5vh auto;
+  margin: 12vh auto 5vh auto;
   /* max-width: 30rem; */
   max-height: 90vh;
   display: -webkit-box;
@@ -59,7 +60,6 @@ img {
     justify-content: space-between;
   }
 
- 
 
   .images {
     flex: 1 1 auto;
