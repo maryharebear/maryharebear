@@ -1,7 +1,7 @@
 ### Hi, My Name is Mary 🌵
 
 
-- 🔭 I’m currently working on a designathon website.
+- 🔭 I’m currently working on a hackathon website.
 - 🌱 I’m currently learning responsiveness and UI/UX design.
 - 👯 I’m looking to collaborate on design.
 - 🤔 I’m looking for help with functional stuff.
