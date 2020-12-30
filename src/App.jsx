@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import AboutMe from './pages/AboutMe/AboutMe';
 import Contact from './pages/Contact/Contact';
 import Work from './pages/Work/Work';
+import Design from './pages/Design/Design'
 
 
 const history = createHashHistory({
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/aboutme" component={AboutMe}/>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/work" component={Work}/>
+        <Route exact path="/design" component={Design}/>
       </Switch>
     </Router>
   );

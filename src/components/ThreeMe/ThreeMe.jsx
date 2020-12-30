@@ -19,7 +19,7 @@ function ThreeMe() {
               <img src={AboutMe} alt="About Me" />
             </div>
         </Link>
-        <Link to="/aboutme" className="images">
+        <Link to="/design" className="images">
             <div className="image">
               <img src={Designs} alt="Designs" />
             </div>
