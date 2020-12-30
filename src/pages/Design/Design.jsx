@@ -7,6 +7,8 @@ import Footer from "../../components/Footer/Footer";
 import Inspirely from "../../assests/inspirely.png";
 import FoodBank from "../../assests/tsg-title.png";
 import SlideButton from "../../assests/slidebutton.png";
+import DesignMerced from "../../assests/designmerced.png";
+import Dashboard from "../../assests/dashboard.jpg";
 
 
 function Design() {
@@ -36,13 +38,13 @@ function Design() {
                 </div>
                 <div class="items">
                   <img
-                    src="https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297__340.jpg"
+                    src={DesignMerced}
                     alt="items photo"
                   />
                 </div>
                 <div class="items">
                   <img
-                    src="https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666__340.jpg"
+                    src={Dashboard}
                     alt="items photo"
                   />
                 </div>
