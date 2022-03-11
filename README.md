@@ -1,7 +1,7 @@
 ### Hi, My Name is Mary 🌵
 
 
-- 🔭 I’m currently working on my design portfolio.
+- 🔭 I’m currently working on class projects.
 - 🌱 I’m currently learning UI/UX design.
 - 👯 I’m looking to collaborate on design and frontend.
 - 🤔 I’m looking for help with responsiveness.
